@@ -1,0 +1,237 @@
+.first-page{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/donation3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20vh;
+        width: 50%;
+        background-color:rgba(0, 0, 0, 0.7);
+        font-size: 20px;
+        color: white;
+    }
+    .para-content{
+        display:inline;
+        align-items: center;
+        justify-content: center;
+        height: 20vh;
+        width: 60%;
+        font-size: 25px;
+        color: white;
+    }
+    .donate-button{
+        text-decoration: none;
+        background-image: linear-gradient(tomato , red );
+        font-weight: 700;
+        padding: 10px 40px;
+        color: white;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    body{
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+    }
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .donate-today{
+        text-align: center;
+    }
+    .flexible-conatiner{
+        display: flex;
+        margin-top: 150px;
+    }
+    .half-width{
+        width: 50%;
+        padding-left: 5%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .half-width img{
+        width: 90%;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .donate-button{
+        text-decoration: none;
+        background-image: linear-gradient(tomato , red );
+        font-weight: 700;
+        padding: 10px 40px;
+        color: white;
+        border-radius: 5px;
+    }
+    
+    .non-flexible-conatiner{
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        
+        
+    }
+    
+      .red-button{
+        background-color: rgba(233, 2, 2, 0.568);
+        padding: 20px 20px 20px 20px;
+        border-radius: 5px;
+        
+      }
+    
+    
+      .donate-button-new
+        {
+            text-decoration: none;
+            background-image: linear-gradient(tomato , red );
+            font-weight: 700;
+            padding: 10px 40px;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            display: inline-block;
+        }
+    
+    
+        .fancy-box-with-button {
+            background-color: blue;
+            border-radius: 15px;
+            margin: 10px;
+            display: flex;
+            position: relative;
+            height: 30px;
+            box-sizing: border-box;
+            padding-right: 10px;
+          }
+          
+          .fancy-box-with-button input {
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            border: none;
+            margin: 0;
+            background-color: transparent;
+          }
+          
+          .fancy-box-with-button button {
+            justify-content: center;
+            position: center;
+            display: flex;
+            top: 20px;
+            right: 50px;
+            margin: 0;
+            height: 100%;
+            width: 100px;
+            border: none;
+            color: white;
+            background-color: rgba(243, 7, 7, 0.733);
+          }
+    
+          .title-3{
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 20px;
+          }
+    
+          .t-3-p{
+            text-align: center;
+          }
+    
+          .section-3{
+            margin-top: 70px;
+            padding: 50px;
+            display: flex;
+            justify-content: space-evenly;
+          }
+        .card-1{
+        width: 350px;
+        height: 300px;
+        border: 1px solid gray;
+        box-shadow: 8px 8px 16px gray;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 40px;
+        transition: 8ms;
+        background-color: aliceblue;
+    
+        }
+        .card-1:hover{
+            border: 1px solid red;
+            margin-top: -15px;
+            transition: 8ms;
+        }
+        .food-icon{
+            width: 50px;
+            padding-top: 20px;
+           
+        }
+        .p-center{
+            text-align: center;
+        }
+        
+    .second-half-width{
+        width: 50%;
+        padding-left: 5%;
+    }
+    .second-half-width img{
+        width: 90%;
+    
+    }
+    .text-alligment{
+        text-align: left;
+    }
+    .contribute-button{
+        text-decoration: none;
+        background-image: linear-gradient(tomato , red );
+        font-weight: 700;
+        padding: 10px 30px;
+        color: white;
+        border-radius: 3px;
+    }
+    label{
+        min-height: 20vh;
+        width: 100%;
+        background: rgba(223, 78, 11, 0.582);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        
+    }
+    input{
+        border: none;
+        padding: 15px;
+    }
+    button{
+        border: none;
+        padding: 15px;
+        background-color: tomato;
+        color: white;
+    }
+    .last{
+        justify-content: center;
+        text-align: center;
+        height: 20vh;
+        width: 100%;
+        border: none;
+        position: absolute;
+        background-color: black;
+        color: white;
+    }
